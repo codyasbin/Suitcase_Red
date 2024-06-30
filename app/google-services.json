@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817882644783",
+    "project_id": "suitcase2-57ccb",
+    "storage_bucket": "suitcase2-57ccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817882644783:android:d056d46e9e5988485f61da",
+        "android_client_info": {
+          "package_name": "com.example.suitcase2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4F2IFVR6CWyhsq_bPQ2pNFE_59WjZc3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
