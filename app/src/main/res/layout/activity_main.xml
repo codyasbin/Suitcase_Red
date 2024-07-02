@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F08C85"
+    android:background="@drawable/bg"
     tools:context=".MainActivity"
     tools:openDrawer="start">
 
@@ -32,17 +32,6 @@
                     android:orientation="vertical"
                     android:layout_marginTop="20dp">
 
-                    <TextView
-                        android:id="@+id/empty_message"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Your suitcase is empty"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:layout_gravity="center" />
-
                     <Button
                         android:id="@+id/add_item_button"
                         android:layout_width="match_parent"
@@ -52,6 +41,19 @@
                         android:textColor="@android:color/white"
                         android:backgroundTint="#F44336"
                         android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/empty_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your suitcase is empty"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="250dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+
+                        />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

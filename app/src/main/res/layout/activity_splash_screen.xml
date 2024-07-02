@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
 
-    android:background="@drawable/splashscreen3"
+    android:background="#F44336"
 
 
     android:gravity="center"
@@ -23,21 +23,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:layout_gravity="center"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_marginTop="20dp"
                 android:id="@+id/splash_img"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-
-                android:src="@drawable/suitcasesplashlogo"
-
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/suitcase_logoo"
                 />
 
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:src="@drawable/vectorimg"
+                />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

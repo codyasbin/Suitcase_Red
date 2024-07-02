@@ -12,12 +12,12 @@
     tools:context=".Signup_Page">
 
    <ImageView
-       android:layout_width="300dp"
-       android:layout_height="100dp"
+       android:layout_width="400dp"
+       android:layout_height="160dp"
        android:layout_gravity="center"
        android:layout_marginBottom="50dp"
        android:layout_marginTop="20dp"
-       android:src="@drawable/suitcasesplashlogo" />
+       android:src="@drawable/suitcase_logoo" />
 
    <androidx.cardview.widget.CardView
        android:layout_width="match_parent"

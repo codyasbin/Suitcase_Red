@@ -19,9 +19,9 @@
         >
 
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
-            android:src="@drawable/suitcasesplashlogo"
+            android:src="@drawable/suitcase_logoo"
             android:layout_gravity="center"/>
 
     </LinearLayout>
